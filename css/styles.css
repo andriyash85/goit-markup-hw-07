@@ -454,7 +454,7 @@ header {
 
 /*--------------- PORTFOLIO --------------- */
 
-.portfolio-project-name {
+.portfolio__name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -462,7 +462,7 @@ header {
 
   color: var(--first-text-color);
 }
-.portfolio-project-type {
+.portfolio__type {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -481,15 +481,15 @@ header {
   clip-path: inset(50%);
   margin: -1px;
 }
-.filtr-list {
+.filtr {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.filtr-item:not(:last-child) {
+.filtr__item:not(:last-child) {
   margin-right: 8px;
 }
-.filtr-btn {
+.filtr__btn {
   padding-top: 6px;
   padding-bottom: 6px;
   background: F5F4FA;
@@ -500,8 +500,8 @@ header {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filtr-btn:hover,
-.filtr-btn:focus {
+.filtr__btn:hover,
+.filtr__btn:focus {
   color: var(--third-text-color);
   background-color: var(--accent-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -514,13 +514,13 @@ header {
   margin-left: -30px;
   margin-bottom: -30px;
 }
-.portfolio-item {
+.portfolio__item {
   /* position: relative; */
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
 }
-.portfolio-item-description {
+.portfolio__description {
   padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
@@ -528,11 +528,11 @@ header {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-.portfolio-link-photo {
+.portfolio__photo {
   position: relative;
   overflow: hidden;
 }
-.portfolio-link-text {
+.portfolio__text {
   position: absolute;
   top: 0;
   left: 0;
@@ -582,17 +582,17 @@ header {
   fill: var(--accent-text-color);
 }
 
-.portfolio-link {
+.portfolio__link {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio__link:hover,
+.portfolio__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-link:hover .portfolio-link-text,
-.portfolio-link:focus .portfolio-link-text {
+.portfolio__link:hover .portfolio__text,
+.portfolio__link:focus .portfolio__text {
   transform: translateY(0);
 }
 .backdrop {
