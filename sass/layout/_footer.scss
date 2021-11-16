@@ -3,6 +3,16 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-form__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--third-text-color);
+  margin-bottom: 20px;
+}
 
 .footer-contacts__adr {
   font-size: 14px;
