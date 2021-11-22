@@ -11,8 +11,8 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
-.modal__btn:hover,
-.modal__btn:focus {
-  fill: var(--accent-text-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-text-color);
+  }
 }
